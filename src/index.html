@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harshad Odakkal — Mobile Application Developer" />
+  <title>Harshad Odakkal</title>
+
+  <style>
+    :root {
+      --font: "Inter", system-ui, sans-serif;
+      --radius: 12px;
+      --padding: 1.2rem;
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #fafafa;
+        --text: #111;
+        --link: #0a66c2;
+        --button-bg: #0a66c2;
+        --button-text: #fff;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --text: #eee;
+        --link: #4da3ff;
+        --button-bg: #4da3ff;
+        --button-text: #000;
+      }
+    }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      margin: 0;
+      padding: var(--padding);
+      line-height: 1.6;
+      max-width: 700px;
+      margin-inline: auto;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    header {
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 12px;
+      object-fit: cover;
+      border: 1px solid rgba(128,128,128,0.3);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+
+    h2 {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+      opacity: 0.8;
+      border-bottom: 1px solid rgba(128,128,128,0.3);
+      padding-bottom: 0.3rem;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .links {
+      margin-top: 0.5rem;
+    }
+
+    .links a {
+      margin-right: 1rem;
+      font-weight: 500;
+    }
+
+    .resume-btn {
+      display: inline-block;
+      background: var(--button-bg);
+      color: var(--button-text);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      font-weight: 500;
+      text-decoration: none;
+      margin-top: 0.8rem;
+      transition: opacity 0.2s;
+    }
+
+    .resume-btn:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(128,128,128,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="profile.jpeg" alt="Harshad Odakkal" class="profile-pic" />
+    <div>
+      <h1>Harshad Odakkal</h1>
+      <p>Mobile Application Developer — Flutter | Kotlin | Node.js</p>
+      <div class="links">
+        <a href="mailto:harshadodakkal@gmail.com">Email</a>
+        <a href="https://github.com/harshadok" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/harshad-odakkal-8585aa184" target="_blank">LinkedIn</a>
+      </div>
+      <a class="resume-btn" href="Harshad-Odakkal-FlowCV-Resume-20251020.pdf" target="_blank">📄 View Resume</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I’m a Mobile Application Developer with 3+ years of experience building and releasing
+      production-ready apps from scratch. I focus on crafting scalable, maintainable, and elegant
+      mobile solutions using Flutter, Dart, and Clean Architecture. I’m also an AI enthusiast and
+      tech writer passionate about exploring the intersection of creativity and technology.
+    </p>
+  </section>
+
+  <section>
+    <h2>Current Work</h2>
+    <p>
+      I’m currently working at <strong>GlobalLogic (Client: Jio Private Limited)</strong>, where I
+      architect and develop the <strong>JioEnergine</strong> mobile application. I apply SOLID
+      principles, modular architecture, and scalable design patterns to deliver secure and
+      high-performance enterprise apps.
+    </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Near Turf:</strong> Sports turf booking app — <a href="https://github.com/harshadok/Near-Turf" target="_blank">GitHub</a></li>
+      <li><strong>Grasshopper:</strong> Money management app — <a href="https://play.google.com/store/apps/details?id=com.fouvty.grasshopper" target="_blank">Play Store</a></li>
+      <li><strong>Zooper IPT:</strong> Public transportation app — Finalist, India Smart Cities Conclave 2023</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      📧 <a href="mailto:harshadodakkal@gmail.com">harshadodakkal@gmail.com</a><br>
+      ☎️ +91        9656234154
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Harshad Odakkal — Built with care</p>
+  </footer>
+</body>
+</html>
